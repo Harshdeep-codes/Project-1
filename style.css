@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-row{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+}
+ul li a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+}
+ul li {
+    list-style-type:none
+}
+.navbar-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul.nav-menu{
+    display: flex;
+    flex-direction: row;
+}
+.search-bar{
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 5px 0px;
+    width: 180px;
+    text-align: center;
+
+}
+
+
+/* Hero section */
+.col-2{
+    
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.col-2 p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 14px;
+}
+.hero-row{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.sqaure-pattern{
+    position: absolute;
+    z-index: -1;
+    left: 130px;
+    top: 372px;
+}
+.col-2 h1{
+    font-size: 50px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Cta Style */
+.email{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+.join-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+.contact h2{
+    padding-bottom: 5px;
+    color: rgb(105, 105, 105);
+}
+.social-icons{
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   justify-items: center;
+   /* justify-content: space-around; */
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.search-bar{
+    position: relative;
+    bottom: 15px;
+    margin-left: 8px;
+}
